@@ -1,5 +1,5 @@
 # Bimestre 01
-![Presentacion](https://i.ibb.co/c82fVND/presentacion.png "Presentacion")
+![Presentacion](https://i.ibb.co/h2h3NZW/FrontEnd.png "Presentacion")
 ## Installation
 
 Installing the repository.
