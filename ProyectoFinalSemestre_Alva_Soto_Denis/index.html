@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sportit</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/responsive.css">
+    <link rel="stylesheet" href="/mobileMenu.css">
 </head>
 
 <body>
     <header>
+
         <nav class="navbar">
             <div><img src="./images/logo.svg" alt="logo"></div>
+            <input type="checkbox" id="toggle-menu" />
+        <label for="toggle-menu">&#9776;</label>
             <ul class="menu">
                 <li><a href="#">Sports</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Community</a></li>
             </ul>
-            <button>Contact</button>
+            <button class="disable">Contact</button>
         </nav>
     </header>
 
