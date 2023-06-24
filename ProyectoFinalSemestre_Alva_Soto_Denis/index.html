@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div><img src="./images/logo.svg" alt="logo"></div>
-            <ul>
+            <ul class="menu">
                 <li><a href="#">Sports</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">About Us</a></li>
@@ -24,13 +24,18 @@
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="deport">
+            <div class="deport_img">
                 <img src="./images/padel-intro.png" alt="panel sport">
             </div>
             
-            <div>
-                <h2>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h2>
+            <div class="deport_content">
+                <h2>
+                    LIVE: Follow the <br />
+                    Telcel Huawei<br />
+                    Mexico Open 2022<br />
+                    for free
+                </h2>
                 <p>
                     The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!
                 </p>
@@ -38,55 +43,55 @@
             </div>
         </section>
 
-        <section>
+        <section class="info_section purple_back">
             <h2>What's different between pros?</h2>
             <p>
                 Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams
             </p>
         </section>
 
-        <section>
-            <ul>
-                <li>
-                    <div>
+        <section class="advantages">
+            <ul class="advantages_list">
+                <li class="advantages_list-item">
+                    <div class="advantages_list_item_header">
                         <p>01</p>
                         Track company-wide progress
                     </div>
                     
-                    <div>
+                    <div class="advantages_list_item_content">
                         Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                     </div>
                 </li>
 
-                <li>
-                    <div>
+                <li class="advantages_list-item">
+                    <div class="advantages_list_item_header">
                         <p>02</p>
                         Advance built-in reports
                     </div>
                     
-                    <div>
+                    <div class="advantages_list_item_content">
                         Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                     </div>
                 </li>
 
-                <li>
-                    <div>
+                <li class="advantages_list-item">
+                    <div class="advantages_list_item_header">
                         <p>03</p>
                         Everything you need in one place
                     </div>
                     
-                    <div>
+                    <div class="advantages_list_item_content">
                         Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                     </div>
                 </li>
             </ul>
         </section>
 
-        <section>
+        <section class="stars">
             <h2>Best of the month</h2>
-            <ul>
-                <li>
-                    <div>
+            <ul class="stars_list">
+                <li class="stars_list-item">
+                    <div class="stars_items-img">
                         <img src="./images/avatar-sanyo.png" alt="sanyo el pro">
                     </div>
                     <h3>Sanyo</h3>
@@ -95,8 +100,8 @@
                     </p>
                 </li>
 
-                <li>
-                    <div>
+                <li class="stars_list-item disable">
+                    <div class="stars_items-img">
                         <img src="./images/avatar.lebron.png" alt="lebron el pro">
                     </div>
                     <h3>Lebron</h3>
@@ -105,8 +110,8 @@
                     </p>
                 </li>
 
-                <li>
-                    <div>
+                <li class="stars_list-item disable">
+                    <div class="stars_items-img">
                         <img src="./images/avatar-navarro.png" alt="navarro el pro">
                     </div>
                     <h3>Navarro</h3>
@@ -119,61 +124,63 @@
             <button>More</button>
         </section>
 
-        <section>
+        <section class="other purple_back">
             <h2>Get to know the best teams of the year</h2>
             <div>
-                <button>Go for it</button>
+                <button class="color_efect">Go for it</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <section>
-            <form action="">
-                <input type="text" required placeholder="Update in your inbox...">
-                <button>Go</button>
-            </form>
-
-            <article>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="#">Training</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </article>
-
-            <article>
-                <ul>
-                    <li>
-                        <a href=""><img src="./images/icon-facebook.svg" alt="facebook"></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="./images/icon-youtube.svg" alt="youtube"></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="./images/icon-twitter.svg" alt="twitter"></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="./images/icon-instagram.svg" alt="instagram"></a>
-                    </li>
-                </ul>
-
-                <div>
-                    <img src="./images/logo_footer.svg" alt="logo foot">
-                </div>
-            </article>
+        <section class="footer_main">
+            <section class="footer_content">
+                <form action="">
+                    <input type="text" required placeholder="Update in your inbox...">
+                    <button>Go</button>
+                </form>
+    
+                <article class="footer_navigation">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+    
+                    <ul>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </article>
+    
+                <article class="footer_content-social">
+                    <ul>
+                        <li>
+                            <a href=""><img src="./images/icon-facebook.svg" alt="facebook"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/icon-youtube.svg" alt="youtube"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/icon-twitter.svg" alt="twitter"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/icon-instagram.svg" alt="instagram"></a>
+                        </li>
+                    </ul>
+    
+                    <div >
+                        <img src="./images/logo_footer.svg" alt="logo foot">
+                    </div>
+                </article>
+            </section>
+            <p class="copy">Copyright 2023. All rights reserved</p>
         </section>
-        <p>Copyright 2023. All rights reserved</p>
     </footer>
 </body>
 </html>
